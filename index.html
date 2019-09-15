@@ -10,8 +10,14 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <div class="flexbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
     <header>
-        <div>
+        <div class="header">
             Logo
             <nav>
                 <ol>            
@@ -28,20 +34,23 @@
             </nav>
         </div>
     </header>    
-        <section>
+        <section class="hero">
             <h1>Hola! Soy <strong>Sergio Pérez</strong> <br/>Desarrollador <strong>Javascript</strong> y de <br><strong>Aplicaciones Moviles</strong>
             </h1>
-            <img src="Imagenes/Foto.jpg" width="500" height="400" alt="imagen principal">
+            <!-- <img src="Imagenes/Foto.jpg" width="500" height="400" alt="imagen principal"> -->
         </section>
-        <section id="portafolio">
+        <section class="portafolio">
             <h2>Proyectos Realizados</h2>
-            <article>
-                <h3>Pensionate Colombia</h3>
-                <h6>Angular</h6>
-                <p><small><strong>Estado: </strong>en ejecución</small></p>
+            <article class="project">
+                    <div class="project-details">
+                        <h3>Pensionate Colombia</h3>
+                        <h6>Angular</h6>
+                        <p><small><strong>Estado: </strong>en ejecución</small></p>
+                        <p>Actualmente me encuentro trabajando en Pensionate Colombia</p>
+                </div>
             </article>
         </section>
-        <section id="Experiencia">
+        <section class="Experiencia">
             <article>
                 <h2>Más sobre mi Experiencia</h2>
                 <figure>

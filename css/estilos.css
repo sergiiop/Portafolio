@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Sans Pro',sans-serif;
+    margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Fjalla One',sans-serif;
@@ -10,4 +11,52 @@ h1{
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
+    color: white;
+    margin: 100px 150px 70px 30px;
+}
+h1 strong{
+    color: #026fff;
+}
+.hero{
+    height: 300px;
+    background-image: url('../Imagenes/Foto.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; 
+}
+.portafolio{
+    background: #FAFAFA;
+
+}
+.project{
+    border: 1px solid #0090D8;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+}
+.project-details{
+    width: 500px
+}
+.header{
+    background-color: #1b2127;
+    color: white;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.flexbox{
+    display:flex;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+
+    flex-shrink: 0;
 }
