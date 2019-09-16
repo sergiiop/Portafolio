@@ -20,14 +20,16 @@ h1 strong{
 }
 .hero{
     height: 300px;
-    background-image: url('../Imagenes/Foto.jpg');
-    background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right; 
+    background-color: #1b2127; 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.hero-image{
+    object-fit: cover;
+}
+
 .portafolio{
     background: #FAFAFA;
     padding: 20px;
@@ -241,4 +243,13 @@ figure{
 }
 .social-link.instagram{
     background-image: url('../Imagenes/instagram.svg');
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items:  inherit;
+    height: inherit;
 }
