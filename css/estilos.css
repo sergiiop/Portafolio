@@ -114,17 +114,6 @@ figure{
     padding: 0 10px;
 }
 
-.flexbox{
-    display:flex;
-
-}
-.box{
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-
-    flex-shrink: 0;
-}
 .footer{
     color: white;
     background-color: #1b2127;
@@ -143,6 +132,7 @@ figure{
 
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 .event-title-list{
     margin-left: 20px;
@@ -209,10 +199,11 @@ figure{
     display:block;
     background: transparent;
     color: white;
-    padding: 10px 0;
+    padding: 10px 0px;
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
+    margin-bottom: 10px;
     /* margin: 10px auto 0 */
 }
 
@@ -252,4 +243,5 @@ figure{
     justify-content: inherit;
     align-items:  inherit;
     height: inherit;
+    flex-wrap: inherit;
 }
